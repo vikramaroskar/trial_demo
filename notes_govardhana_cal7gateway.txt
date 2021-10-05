@@ -1,0 +1,52 @@
+separate team.
+
+arch point of view.
+
+dmz
+zmd
+corp net
+
+
+DMZ - demilitarised zone.
+ZMD - external connectivity is disconnected, so internal network is working
+CORP NET
+
+					dev SSO/SSO
+traffic originating 			-> SSO
+		    ->  global load balancer-> gateway -> SSO(purple id - ) role based -> FCL  -> 
+user role - specific -purple id
+generic role - FCL 
+
+purple id -
+2 places
+1 - image, normal roles, 
+2 - project, region, 
+
+LOAD -> 
+2 instance - EMEA - earlier. 
+external and internal 
+DR - 2		2
+
+Typically - whitelisting.
+
+
+
+
+
+timing
+error response
+throtling
+auth valid 2 level, (sso/ purple, FCL cookies - profile(roles, app in different area, authorisation))
+
+URL mapping  -> apache URL mapping -> headerparameter, sesssion, load, -> policy
+
+few fedex predefined
+few project level
+
+
+
+lower env - only 1 instance
+higher env - data center specific CAL7
+now only 1 CAL7 version 9.4 - for primary and DR, earlier multiple for primary and DR 9.2
+
+

@@ -1,0 +1,67 @@
+fedex - 
+
+Azure landing zone. - 
+
+basic requirement - data center
+- mphasis - 
+- primary - 100 VMs - IAM - campbell -arnott- 
+- subscription - data center - near data center - 
+- sydney - melbourne -secondary - 
+- type of workload - sap, non sap, database, firewall, load balancer, - connectivity components, - 
+- DR 
+- separate workload, database 
+- number of subscription - fedex australia - 
+- subscription vs tags
+- 
+
+- ssd premium 
+- 
+storage account - separate usually - management, application, 
+- fedex - no vms, application, spring, pcf platform, app container, storage container, 
+user mobiel- package tracking - delivery updates- mobile app - to pcf - 
+- storage - CosmosDB - activity logs, application data - message queue, 
+
+
+AD active directory - 
+- hadnling portal permission - create , manage, 
+- auth part - application - 
+- SSO, 
+- security clearance
+- 
+
+office 365, 
+- mailing service 
+- SMTP relay,
+
+managed disk,
+message
+redis cache,
+azure monitor
+event hub - virtual machine - azure components, 
+devops 
+
+alert / monitor s- log analytics 
+- connector - to on premise,
+asset management
+config service
+- 
+
+backup service - strong repository - blob storage 
+- 
+
+
+banking - 
+
+
+- security center
+log analytics
+- traffic manager 
+- pcf - availabilty zone - 
+
+syndey, melbourne, aust central.
+
+
+- JMS - 
+- 
+
+- GCP -  

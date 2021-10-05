@@ -1,0 +1,35 @@
+rajeev
+
+- ZONE -
+gateway - outbound and inbound
+ibm saas -> fedex -> moved to cloud
+
+gateway in DMZ - in load balancer - 
+global load balancer -> in front of gateway -> GEO IP routes to data center
+
+-> in VM -> java, linux, gateway 10.0 CENTOS only -> 
+CA API portal -> 
+in CA gateway -> portal is separate unlike KONG -> management portal pulls 
+-> 
+oAUTH -> oracle token store -> gateway -> oracle, mysql, casssandra, 
+
+oauth inside gateway -> 
+
+idp, okta, not used.
+L3 level, IP -> restricted IP -> proxy -> 
+
+
+4 nodes,2 data centres - 2 nodes each, PROD
+
+bottomline -> concurrent connection per node - hard limit
+peak connection limit -> 
+per sec -> not beyond 700 per node 
+
+
+ops logging-> splunk -> 
+every error -> final success -> 
+
+OFF boX-> 
+splunk capturing -> concurrent load number -> 0.75, 0.80 load factor
+
+AZURE -> gateway -> updated version -> 
